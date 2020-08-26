@@ -1,0 +1,1388 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.opentiq.fekra"
+4    android:versionCode="4"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:7:3-9:42
+12        android:name="com.opentiq.fekra.permission.C2D_MESSAGE"
+12-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:8:5-60
+13        android:protectionLevel="signature" />
+13-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:9:5-40
+14
+15    <!-- These are required permissions to make the app run -->
+16    <uses-permission android:name="com.opentiq.fekra.permission.C2D_MESSAGE" />
+16-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:12:3-78
+16-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:12:20-75
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:13:3-80
+17-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:13:20-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:14:3-77
+18-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:14:20-74
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:15:3-65
+19-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:15:20-62
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:16:3-76
+20-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:16:20-73
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:17:3-66
+21-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:17:20-63
+22
+23    <!-- ADD PERMISSIONS HERE -->
+24    <!-- BEGIN OPTIONAL PERMISSIONS -->
+25    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+25-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:21:3-73
+25-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:21:20-70
+26    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+26-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:22:3-78
+26-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:22:20-75
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:23:3-73
+27-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:23:20-70
+28    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+28-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:24:3-72
+28-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:24:20-69
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:25:3-64
+29-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:25:20-61
+30    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+30-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:26:3-86
+30-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:26:20-83
+31    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+31-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:27:3-78
+31-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:27:20-75
+32
+33    <!-- These require runtime permissions on M -->
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:30:3-79
+34-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:30:20-76
+35    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+35-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:31:3-77
+35-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:31:20-74
+36    <uses-permission android:name="android.permission.CAMERA" />
+36-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:32:3-63
+36-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:32:20-60
+37    <uses-permission android:name="android.permission.READ_CONTACTS" />
+37-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:33:3-70
+37-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:33:20-67
+38    <uses-permission android:name="android.permission.READ_CALENDAR" />
+38-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:34:3-70
+38-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:34:20-67
+39    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+39-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:35:3-71
+39-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:35:20-68
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+40-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:36:3-78
+40-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:36:20-75
+41    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+41-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:37:3-69
+41-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:37:20-66
+42    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+42-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:38:3-79
+42-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:38:20-76
+43    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+43-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:39:3-71
+43-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:39:20-68
+44    <!-- END OPTIONAL PERMISSIONS -->
+45
+46
+47    <!-- ADD TEST PERMISSIONS HERE -->
+48
+49    <uses-feature
+49-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:44:3-77
+50        android:glEsVersion="0x00020000"
+50-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:44:17-49
+51        android:required="true" />
+51-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:44:50-74
+52    <uses-feature
+52-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:45:3-85
+53        android:name="android.software.leanback"
+53-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:45:17-57
+54        android:required="false" />
+54-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:45:58-82
+55    <uses-feature
+55-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:46:3-88
+56        android:name="android.hardware.touchscreen"
+56-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:46:17-60
+57        android:required="false" />
+57-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:46:61-85
+58
+59    <!-- WHEN_VERSIONING_REMOVE_FROM_HERE -->
+60    <supports-screens
+60-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:13:5-19:24
+61        android:anyDensity="true"
+61-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:14:9-34
+62        android:largeScreens="true"
+62-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:15:9-36
+63        android:normalScreens="true"
+63-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:16:9-37
+64        android:smallScreens="true"
+64-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:17:9-36
+65        android:xlargeScreens="true" >
+65-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:18:9-37
+66    </supports-screens>
+67
+68    <uses-permission android:name="host.exp.exponent.permission.C2D_MESSAGE" /> <!-- Used by react-native-netinfo module -->
+68-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:26:5-80
+68-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:26:22-77
+69    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+69-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:34:5-76
+69-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:34:22-73
+70
+71    <uses-feature
+71-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:47:5-49:36
+72        android:name="android.hardware.camera"
+72-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:48:9-47
+73        android:required="false" />
+73-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:49:9-33
+74    <uses-feature
+74-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:50:5-52:36
+75        android:name="android.hardware.camera.autofocus"
+75-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:51:9-57
+76        android:required="false" />
+76-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:52:9-33
+77    <uses-feature
+77-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:53:5-55:36
+78        android:name="android.hardware.location"
+78-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:54:9-49
+79        android:required="false" />
+79-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:55:9-33
+80    <uses-feature
+80-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:56:5-58:36
+81        android:name="android.hardware.location.gps"
+81-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:57:9-53
+82        android:required="false" />
+82-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:58:9-33
+83    <uses-feature
+83-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:59:5-61:36
+84        android:name="android.hardware.location.network"
+84-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:60:9-57
+85        android:required="false" />
+85-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:61:9-33
+86    <uses-feature
+86-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:62:5-64:36
+87        android:name="android.hardware.wifi"
+87-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:63:9-45
+88        android:required="false" />
+88-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:64:9-33
+89    <uses-feature
+89-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:65:5-67:36
+90        android:name="android.hardware.microphone"
+90-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:66:9-51
+91        android:required="false" />
+91-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:67:9-33
+92    <uses-feature
+92-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:68:5-70:36
+93        android:name="android.hardware.telephony"
+93-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:69:9-50
+94        android:required="false" />
+94-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:70:9-33
+95    <uses-feature
+95-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:71:5-73:36
+96        android:name="android.hardware.bluetooth"
+96-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:72:9-50
+97        android:required="false" />
+97-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:73:9-33
+98
+99    <uses-permission android:name="android.permission.STORAGE" />
+99-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-66
+99-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-63
+100    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+100-->[:expo-location] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-77
+100-->[:expo-location] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-74
+101    <!--
+102 Use to restore notifications the user hasn't interacted with.
+103         They could be missed notifications if the user reboots their device if this isn't in place.
+104    -->
+105    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+105-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:29:5-81
+105-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:29:22-78
+106    <!-- Samsung -->
+107    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+107-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:31:5-86
+107-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:31:22-83
+108    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+108-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:32:5-87
+108-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:32:22-84
+109    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+109-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:33:5-81
+109-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:33:22-78
+110    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+110-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:34:5-83
+110-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:34:22-80
+111    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+111-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:35:5-88
+111-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:35:22-85
+112    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+112-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:36:5-92
+112-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:36:22-89
+113    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+113-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:37:5-84
+113-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:37:22-81
+114    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+114-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:38:5-83
+114-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:38:22-80
+115    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+115-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:39:5-91
+115-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:39:22-88
+116    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+116-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:40:5-92
+116-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:40:22-89
+117    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+117-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:41:5-93
+117-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:41:22-90
+118    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+118-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:42:5-73
+118-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:42:22-70
+119    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+119-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:43:5-82
+119-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:43:22-79
+120    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+120-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:44:5-83
+120-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:44:22-80
+121    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+121-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:45:5-88
+121-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:45:22-85
+122    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+122-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:46:5-89
+122-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:46:22-86
+123    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+123-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+123-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+124    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+124-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+124-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+125    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+125-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+125-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+126
+127    <application
+127-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:48:3-360:17
+128        android:name="host.exp.exponent.MainApplication"
+128-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:49:5-36
+129        android:allowBackup="true"
+129-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:50:5-31
+130        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+130-->[androidx.core:core:1.1.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/37791d22cdf73b5c35c92eb9addd3f27/core-1.1.0/AndroidManifest.xml:24:18-86
+131        android:icon="@mipmap/ic_launcher"
+131-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:51:5-39
+132        android:label="@string/app_name"
+132-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:52:5-37
+133        android:largeHeap="true"
+133-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:53:5-29
+134        android:supportsRtl="true"
+134-->[com.facebook.android:facebook-android-sdk:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/36d8e97a0dea5ca0c54825784f11758c/facebook-android-sdk-5.0.1/AndroidManifest.xml:28:18-44
+135        android:usesCleartextTraffic="true" >
+135-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:54:5-40
+136        <activity
+136-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:56:5-61:16
+137            android:name="host.exp.exponent.LauncherActivity"
+137-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:57:7-39
+138            android:exported="true"
+138-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:58:7-30
+139            android:launchMode="singleTask"
+139-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:59:7-38
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:60:7-66
+141        </activity>
+142        <activity
+142-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:63:5-68:16
+143            android:name="host.exp.exponent.experience.ExperienceActivity"
+143-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:64:7-52
+144            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+144-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:65:7-77
+145            android:theme="@style/Theme.Exponent.Light"
+145-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:66:7-50
+146            android:windowSoftInputMode="adjustResize" >
+146-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:67:7-49
+147        </activity>
+148        <activity
+148-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:70:5-90:16
+149            android:name="host.exp.exponent.MainActivity"
+149-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:71:7-35
+150            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+150-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:73:7-77
+151            android:launchMode="singleTask"
+151-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:72:7-38
+152            android:theme="@style/Theme.Exponent.Splash"
+152-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:74:7-51
+153            android:windowSoftInputMode="adjustResize" >
+153-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:75:7-49
+154            <intent-filter>
+154-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:76:7-83:23
+155                <data android:scheme="fekra" />
+155-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+155-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+156
+157                <action android:name="android.intent.action.VIEW" />
+157-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+157-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+159-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+160-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+161            </intent-filter>
+162            <intent-filter>
+162-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:84:7-88:23
+163                <action android:name="android.intent.action.MAIN" />
+163-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:85:9-60
+163-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:85:17-58
+164
+165                <category android:name="android.intent.category.LAUNCHER" />
+165-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:87:9-68
+165-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:87:19-66
+166            </intent-filter>
+167            <!-- ADD DETACH APP SPECIFIC INTENT FILTERS -->
+168        </activity>
+169        <activity
+169-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:92:5-98:16
+170            android:name="host.exp.exponent.experience.HomeActivity"
+170-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:93:7-46
+171            android:label="@string/app_name"
+171-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:94:7-39
+172            android:launchMode="singleTask"
+172-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:95:7-38
+173            android:screenOrientation="portrait"
+173-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:96:7-43
+174            android:theme="@style/Theme.Exponent.Light" >
+174-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:97:7-50
+175        </activity>
+176        <activity
+176-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:100:5-109:15
+177            android:name="host.exp.exponent.experience.TvActivity"
+177-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:101:7-44
+178            android:label="@string/app_name"
+178-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:102:7-39
+179            android:screenOrientation="landscape"
+179-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:104:7-44
+180            android:theme="@style/Theme.Exponent.Light" >
+180-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:103:7-50
+181            <intent-filter>
+181-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:105:6-108:22
+182                <action android:name="android.intent.action.MAIN" />
+182-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:85:9-60
+182-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:85:17-58
+183
+184                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+184-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:107:8-77
+184-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:107:18-74
+185            </intent-filter>
+186        </activity>
+187        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+187-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:113:5-81
+187-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:113:15-79
+188        <!-- WHEN_PREPARING_SHELL_REMOVE_FROM_HERE -->
+189        <!-- ADD DEV SETTINGS HERE -->
+190        <!-- BEGIN_SDK_36 -->
+191        <activity android:name="abi36_0_0.com.facebook.react.devsupport.DevSettingsActivity" />
+191-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:117:5-91
+191-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:117:15-89
+192        <!-- END_SDK_36 -->
+193        <!-- BEGIN_SDK_35 -->
+194        <activity android:name="abi35_0_0.com.facebook.react.devsupport.DevSettingsActivity" />
+194-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:120:5-91
+194-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:120:15-89
+195        <!-- END_SDK_35 -->
+196        <!-- BEGIN_SDK_34 -->
+197        <activity android:name="abi34_0_0.com.facebook.react.devsupport.DevSettingsActivity" />
+197-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:123:5-91
+197-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:123:15-89
+198        <!-- END_SDK_34 -->
+199        <!-- BEGIN_SDK_33 -->
+200        <activity android:name="abi33_0_0.com.facebook.react.devsupport.DevSettingsActivity" />
+200-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:126:5-91
+200-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:126:15-89
+201        <!-- END_SDK_33 -->
+202        <!-- WHEN_PREPARING_SHELL_REMOVE_TO_HERE -->
+203
+204        <activity android:name="net.openid.appauth.RedirectUriReceiverActivity" >
+204-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:130:5-139:16
+204-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:131:9-70
+205            <intent-filter>
+205-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:133:7-138:23
+206                <action android:name="android.intent.action.VIEW" />
+206-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+206-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+207
+208                <category android:name="android.intent.category.DEFAULT" />
+208-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+208-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+209                <category android:name="android.intent.category.BROWSABLE" />
+209-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+209-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+210
+211                <data
+211-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+212                    android:path="oauthredirect"
+212-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:137:50-78
+213                    android:scheme="com.opentiq.fekra" />
+213-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+214            </intent-filter>
+215        </activity>
+216
+217        <!-- START OF STRIPE SCHEMES -->
+218        <activity
+218-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:142:5-153:16
+219            android:name="expo.modules.payments.stripe.RedirectUriReceiver"
+219-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:145:9-72
+220            android:exported="true"
+220-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:143:9-32
+221            android:launchMode="singleTask"
+221-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:144:9-40
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+222-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:146:9-79
+223            <intent-filter>
+223-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:147:9-152:25
+224                <action android:name="android.intent.action.VIEW" />
+224-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+224-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+225
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+226-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+227                <category android:name="android.intent.category.BROWSABLE" />
+227-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+227-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+228
+229                <data android:scheme="expo.modules.payments.stripe.8a4356ed-d6ae-4038-a55f-51e6c5404356" />
+229-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+229-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+230            </intent-filter>
+231        </activity>
+232        <!-- Versioned Activity for Stripe -->
+233        <!-- BEGIN_SDK_36 -->
+234        <activity
+234-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:156:5-167:16
+235            android:name="abi36_0_0.expo.modules.payments.stripe.RedirectUriReceiver"
+235-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:159:7-80
+236            android:exported="true"
+236-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:157:7-30
+237            android:launchMode="singleTask"
+237-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:158:7-38
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+238-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:160:7-77
+239            <intent-filter>
+239-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:161:7-166:23
+240                <action android:name="android.intent.action.VIEW" />
+240-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+240-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+242-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+243                <category android:name="android.intent.category.BROWSABLE" />
+243-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+243-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+244
+245                <data android:scheme="abi36_0_0.expo.modules.payments.stripe" />
+245-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+245-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+246            </intent-filter>
+247        </activity>
+248        <!-- END_SDK_36 -->
+249        <!-- BEGIN_SDK_35 -->
+250        <activity
+250-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:170:3-181:14
+251            android:name="abi35_0_0.expo.modules.payments.stripe.RedirectUriReceiver"
+251-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:173:4-77
+252            android:exported="true"
+252-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:171:4-27
+253            android:launchMode="singleTask"
+253-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:172:4-35
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+254-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:174:4-74
+255            <intent-filter>
+255-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:175:4-180:20
+256                <action android:name="android.intent.action.VIEW" />
+256-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+256-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+258-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+259                <category android:name="android.intent.category.BROWSABLE" />
+259-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+259-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+260
+261                <data android:scheme="abi35_0_0.expo.modules.payments.stripe" />
+261-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+261-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+262            </intent-filter>
+263        </activity>
+264        <!-- END_SDK_35 -->
+265        <!-- BEGIN_SDK_34 -->
+266        <activity
+266-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:184:5-195:16
+267            android:name="abi34_0_0.expo.modules.payments.stripe.RedirectUriReceiver"
+267-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:187:7-80
+268            android:exported="true"
+268-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:185:7-30
+269            android:launchMode="singleTask"
+269-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:186:7-38
+270            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+270-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:188:7-77
+271            <intent-filter>
+271-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:189:7-194:23
+272                <action android:name="android.intent.action.VIEW" />
+272-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+272-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+273
+274                <category android:name="android.intent.category.DEFAULT" />
+274-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+274-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+275                <category android:name="android.intent.category.BROWSABLE" />
+275-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+275-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+276
+277                <data android:scheme="abi34_0_0.expo.modules.payments.stripe" />
+277-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+277-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+278            </intent-filter>
+279        </activity>
+280        <!-- END_SDK_34 -->
+281        <!-- BEGIN_SDK_33 -->
+282        <activity
+282-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:198:5-209:16
+283            android:name="abi33_0_0.expo.modules.payments.stripe.RedirectUriReceiver"
+283-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:201:7-80
+284            android:exported="true"
+284-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:199:7-30
+285            android:launchMode="singleTask"
+285-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:200:7-38
+286            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+286-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:202:7-77
+287            <intent-filter>
+287-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:203:7-208:23
+288                <action android:name="android.intent.action.VIEW" />
+288-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:9-60
+288-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:79:17-58
+289
+290                <category android:name="android.intent.category.DEFAULT" />
+290-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:9-67
+290-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:81:19-65
+291                <category android:name="android.intent.category.BROWSABLE" />
+291-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:9-69
+291-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:82:19-67
+292
+293                <data android:scheme="abi33_0_0.expo.modules.payments.stripe" />
+293-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:9-39
+293-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:77:15-37
+294            </intent-filter>
+295        </activity>
+296        <!-- END_SDK_33 -->
+297        <!-- END OF STRIPE SCHEMES -->
+298
+299        <activity
+299-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:213:5-217:16
+300            android:name="host.exp.exponent.experience.ErrorActivity"
+300-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:214:7-47
+301            android:screenOrientation="portrait"
+301-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:216:7-43
+302            android:theme="@style/Theme.Exponent.Dark" >
+302-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:215:7-49
+303        </activity>
+304        <activity
+304-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:219:5-223:16
+305            android:name="host.exp.exponent.experience.InfoActivity"
+305-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:220:7-46
+306            android:screenOrientation="portrait"
+306-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:221:7-43
+307            android:theme="@style/Theme.Exponent.Light" >
+307-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:222:7-50
+308        </activity>
+309        <activity
+309-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:225:5-230:39
+310            android:name="com.facebook.FacebookActivity"
+310-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:226:7-51
+311            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+311-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:227:7-90
+312            android:label="@string/app_name"
+312-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:228:7-39
+313            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+313-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:229:7-66
+314        <activity
+314-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:232:5-236:69
+315            android:name="com.facebook.ads.InterstitialAdActivity"
+315-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:233:7-61
+316            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+316-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:234:7-90
+317            android:label="@string/app_name"
+317-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:235:7-39
+318            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+318-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:236:7-66
+319
+320        <service
+320-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:238:5-240:34
+321            android:name="host.exp.exponent.ExponentIntentService"
+321-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:239:7-44
+322            android:exported="false" />
+322-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:240:7-31
+323
+324        <!-- Analytics -->
+325        <receiver
+325-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:243:5-249:16
+326            android:name="host.exp.exponent.referrer.InstallReferrerReceiver"
+326-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:244:7-72
+327            android:exported="true" >
+327-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:245:7-30
+328            <intent-filter>
+328-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:246:7-248:23
+329                <action android:name="com.android.vending.INSTALL_REFERRER" />
+329-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:247:9-71
+329-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:247:17-68
+330            </intent-filter>
+331        </receiver>
+332
+333        <!--
+334    This crashes: https://code.google.com/p/analytics-issues/issues/detail?id=667
+335    TODO: turn it back on when it's fixed
+336    <service
+337      android:name="com.google.android.gms.analytics.CampaignTrackingService"
+338      android:enabled="true"
+339      android:exported="false" />
+340        -->
+341
+342        <receiver
+342-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:259:5-264:16
+343            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+343-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:259:15-80
+344            android:enabled="true"
+344-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:260:15-37
+345            android:exported="false" >
+345-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ad982fed566855ce39da4a58a6e78c6/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:33:13-37
+346            <intent-filter>
+346-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:261:7-263:23
+347                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+347-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:262:9-86
+347-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:262:17-83
+348            </intent-filter>
+349        </receiver>
+350
+351        <service
+351-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:266:5-268:40
+352            android:name="com.google.android.gms.analytics.AnalyticsService"
+352-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:266:14-78
+353            android:enabled="true"
+353-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:267:14-36
+354            android:exported="false" />
+354-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:268:14-38
+355
+356        <!-- GCM -->
+357        <receiver
+357-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:271:5-281:16
+358            android:name="com.google.android.gms.gcm.GcmReceiver"
+358-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:272:7-60
+359            android:exported="true"
+359-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:273:7-30
+360            android:permission="com.google.android.c2dm.permission.SEND" >
+360-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:274:7-67
+361            <intent-filter>
+361-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:275:7-280:23
+362                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+362-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:9-72
+362-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:17-70
+363                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+363-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:277:9-77
+363-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:277:17-75
+364
+365                <category android:name="com.opentiq.fekra" />
+365-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:279:9-53
+365-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:279:19-51
+366            </intent-filter>
+367        </receiver>
+368
+369        <service
+369-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:283:5-289:15
+370            android:name="host.exp.exponent.gcm.ExponentGcmListenerService"
+370-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:284:7-53
+371            android:exported="false" >
+371-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:285:7-31
+372            <intent-filter>
+372-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:286:7-288:23
+373                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+373-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:9-72
+373-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:17-70
+374            </intent-filter>
+375        </service>
+376        <service
+376-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:290:5-296:15
+377            android:name="host.exp.exponent.gcm.ExponentInstanceIDListenerService"
+377-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:291:7-60
+378            android:exported="false" >
+378-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:292:7-31
+379            <intent-filter>
+379-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:293:7-295:23
+380                <action android:name="com.google.android.gms.iid.InstanceID" />
+380-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:294:9-71
+380-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:294:17-69
+381            </intent-filter>
+382        </service>
+383        <service
+383-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:297:5-300:15
+384            android:name="host.exp.exponent.gcm.GcmRegistrationIntentService"
+384-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:298:7-55
+385            android:exported="false" >
+385-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:299:7-31
+386        </service>
+387
+388        <!-- FCM -->
+389        <service android:name="host.exp.exponent.fcm.ExpoFcmMessagingService" >
+389-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:303:5-308:15
+389-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:304:7-50
+390            <intent-filter>
+390-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:305:7-307:23
+391                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+391-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:306:9-69
+391-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:306:17-67
+392            </intent-filter>
+393        </service>
+394
+395        <meta-data
+395-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:309:5-311:62
+396            android:name="com.google.firebase.messaging.default_notification_icon"
+396-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:310:7-77
+397            android:resource="@drawable/shell_notification_icon" />
+397-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:311:7-59
+398        <meta-data
+398-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:312:5-314:47
+399            android:name="com.google.firebase.messaging.default_notification_color"
+399-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:313:7-78
+400            android:resource="@color/colorAccent" />
+400-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:314:7-44
+401
+402        <service
+402-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:315:5-318:15
+403            android:name="host.exp.exponent.fcm.FcmRegistrationIntentService"
+403-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:316:7-55
+404            android:exported="false" >
+404-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:317:7-31
+405        </service>
+406
+407        <!-- ImagePicker native module -->
+408        <activity
+408-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:321:5-324:16
+409            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+409-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:322:7-70
+410            android:theme="@style/Base.Theme.AppCompat" >
+410-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:323:7-50
+411        </activity>
+412
+413        <!-- ADD FABRIC CONFIG HERE -->
+414        <!-- BEGIN FABRIC CONFIG -->
+415        <meta-data
+415-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:329:5-331:65
+416            android:name="io.fabric.ApiKey"
+416-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:330:7-38
+417            android:value="a25fafe9f9edee11a9882b32e0cd7a26df6e2c42" />
+417-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:331:7-63
+418        <!-- END FABRIC CONFIG -->
+419
+420
+421        <!-- ADD GOOGLE MAPS CONFIG HERE -->
+422        <!-- BEGIN GOOGLE MAPS CONFIG -->
+423        <!-- END GOOGLE MAPS CONFIG -->
+424        <meta-data
+424-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:337:5-339:64
+425            android:name="com.google.android.geo.API_KEY"
+425-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:338:7-52
+426            android:value="AIzaSyBiJcc3i7ffHp2qfcAhS6qB3zPtDbJmIRQ" />
+426-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:339:7-62
+427
+428        <!-- ADD GOOGLE MOBILE ADS CONFIG HERE -->
+429        <!-- BEGIN GOOGLE MOBILE ADS CONFIG -->
+430        <meta-data
+430-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:343:5-345:63
+431            android:name="com.google.android.gms.ads.APPLICATION_ID"
+431-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:344:7-63
+432            android:value="ca-app-pub-3940256099942544~3347511713" />
+432-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:345:7-61
+433        <meta-data
+433-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:346:5-107
+434            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+434-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:346:16-84
+435            android:value="true" />
+435-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:346:85-105
+436        <!-- END GOOGLE MOBILE ADS CONFIG -->
+437
+438
+439        <!-- ADD BRANCH CONFIG HERE -->
+440
+441
+442        <!-- ADD FACEBOOK APP ID CONFIG HERE -->
+443        <!-- ADD FACEBOOK APP DISPLAY NAME CONFIG HERE -->
+444        <!-- Tags below need to be in one line with no whitespace after android:value -->
+445        <!-- in order for XDL to be able to replace values in them -->
+446        <meta-data
+446-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:355:5-95
+447            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+447-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:355:16-71
+448            android:value="false" />
+448-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:355:72-93
+449        <meta-data
+449-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:356:5-87
+450            android:name="com.facebook.sdk.AutoInitEnabled"
+450-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:356:16-63
+451            android:value="false" />
+451-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:356:64-85
+452        <meta-data
+452-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:357:5-101
+453            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+453-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:357:16-77
+454            android:value="false" />
+454-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:357:78-99
+455        <meta-data
+455-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:359:5-109
+456            android:name="standaloneStripeScheme"
+456-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:359:16-53
+457            android:value="8a4356ed-d6ae-4038-a55f-51e6c5404356" />
+457-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:359:54-106
+458        <!-- WHEN_VERSIONING_REMOVE_FROM_HERE -->
+459        <!-- Scheduled notifications -->
+460        <receiver
+460-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:79:9-81:40
+461            android:name="host.exp.exponent.notifications.ScheduledNotificationReceiver"
+461-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:80:13-89
+462            android:exported="false" />
+462-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:81:13-37
+463        <receiver
+463-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:82:9-92:20
+464            android:name="host.exp.exponent.notifications.receivers.SchedulingTriggerReceiver"
+464-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:83:13-95
+465            android:exported="true" >
+465-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:84:13-36
+466            <intent-filter>
+466-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:85:13-91:29
+467                <action android:name="android.intent.action.REBOOT" />
+467-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:86:17-71
+467-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:86:25-68
+468                <action android:name="android.intent.action.BOOT_COMPLETED" />
+468-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:87:17-79
+468-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:87:25-76
+469                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+469-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:88:17-81
+469-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:88:25-78
+470                <action android:name="android.intent.action.TIME_CHANGED" />
+470-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:89:17-77
+470-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:89:25-74
+471                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+471-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:90:17-82
+471-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:90:25-79
+472            </intent-filter>
+473        </receiver> <!-- WHEN_VERSIONING_REMOVE_TO_HERE -->
+474        <provider
+474-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:96:9-104:20
+475            android:name="androidx.core.content.FileProvider"
+475-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:97:13-62
+476            android:authorities="com.opentiq.fekra.provider"
+476-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:98:13-60
+477            android:exported="false"
+477-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:99:13-37
+478            android:grantUriPermissions="true" >
+478-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:100:13-47
+479            <meta-data
+479-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:101:13-103:58
+480                android:name="android.support.FILE_PROVIDER_PATHS"
+480-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:102:17-67
+481                android:resource="@xml/provider_paths" />
+481-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:103:17-55
+482        </provider>
+483        <provider
+483-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:105:9-113:20
+484            android:name="versioned.host.exp.exponent.modules.api.components.webview.RNCWebViewFileProvider"
+484-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:106:13-109
+485            android:authorities="com.opentiq.fekra.fileprovider"
+485-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:107:13-64
+486            android:exported="false"
+486-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:108:13-37
+487            android:grantUriPermissions="true" >
+487-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:109:13-47
+488            <meta-data
+488-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:101:13-103:58
+489                android:name="android.support.FILE_PROVIDER_PATHS"
+489-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:102:17-67
+490                android:resource="@xml/provider_paths" />
+490-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:103:17-55
+491        </provider>
+492
+493        <activity
+493-->[:expo-app-auth] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-app-auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:75
+494            android:name="expo.modules.appauth.AppAuthBrowserActivity"
+494-->[:expo-app-auth] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-app-auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-71
+495            android:exported="false"
+495-->[:expo-app-auth] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-app-auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+496            android:launchMode="singleTask"
+496-->[:expo-app-auth] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-app-auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-44
+497            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+497-->[:expo-app-auth] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-app-auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-72
+498
+499        <provider
+499-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-27:20
+500            android:name="expo.modules.filesystem.FileSystemFileProvider"
+500-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-74
+501            android:authorities="com.opentiq.fekra.FileSystemFileProvider"
+501-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-74
+502            android:exported="false"
+502-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-37
+503            android:grantUriPermissions="true" >
+503-->[:expo-file-system] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-47
+504            <meta-data
+504-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:101:13-103:58
+505                android:name="android.support.FILE_PROVIDER_PATHS"
+505-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:102:17-67
+506                android:resource="@xml/file_system_provider_paths" />
+506-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:103:17-55
+507        </provider> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+508        <provider
+508-->[:expo-image-picker] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-22:20
+509            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+509-->[:expo-image-picker] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-76
+510            android:authorities="com.opentiq.fekra.ImagePickerFileProvider"
+510-->[:expo-image-picker] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-75
+511            android:exported="false"
+511-->[:expo-image-picker] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-37
+512            android:grantUriPermissions="true" >
+512-->[:expo-image-picker] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-47
+513            <meta-data
+513-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:101:13-103:58
+514                android:name="android.support.FILE_PROVIDER_PATHS"
+514-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:102:17-67
+515                android:resource="@xml/image_picker_provider_paths" />
+515-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:103:17-55
+516        </provider>
+517
+518        <service
+518-->[:expo-location] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-18:40
+519            android:name="expo.modules.location.services.LocationTaskService"
+519-->[:expo-location] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-78
+520            android:exported="false" />
+520-->[:expo-location] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+521
+522        <provider
+522-->[:expo-sharing] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+523            android:name="expo.modules.sharing.SharingFileProvider"
+523-->[:expo-sharing] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-68
+524            android:authorities="com.opentiq.fekra.SharingFileProvider"
+524-->[:expo-sharing] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-71
+525            android:exported="false"
+525-->[:expo-sharing] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+526            android:grantUriPermissions="true" >
+526-->[:expo-sharing] /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+527            <meta-data
+527-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:101:13-103:58
+528                android:name="android.support.FILE_PROVIDER_PATHS"
+528-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:102:17-67
+529                android:resource="@xml/sharing_provider_paths" />
+529-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:103:17-55
+530        </provider>
+531
+532        <activity android:name="com.facebook.CustomTabMainActivity" />
+532-->[com.facebook.android:facebook-common:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/AndroidManifest.xml:33:9-71
+532-->[com.facebook.android:facebook-common:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/AndroidManifest.xml:33:19-68
+533        <activity android:name="com.facebook.CustomTabActivity" />
+533-->[com.facebook.android:facebook-common:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/AndroidManifest.xml:34:9-67
+533-->[com.facebook.android:facebook-common:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/AndroidManifest.xml:34:19-64
+534        <activity
+534-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:15:9-18:40
+535            android:name="com.facebook.ads.AudienceNetworkActivity"
+535-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:16:13-68
+536            android:configChanges="keyboardHidden|orientation|screenSize"
+536-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:17:13-74
+537            android:exported="false" />
+537-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:18:13-37
+538        <activity
+538-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:19:9-23:39
+539            android:name="com.facebook.ads.internal.ipc.RemoteANActivity"
+539-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:20:13-74
+540            android:configChanges="keyboardHidden|orientation|screenSize"
+540-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:21:13-74
+541            android:exported="false"
+541-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:22:13-37
+542            android:process=":adnw" />
+542-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:23:13-36
+543
+544        <service
+544-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:25:9-27:40
+545            android:name="com.facebook.ads.internal.ipc.AdsProcessPriorityService"
+545-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:26:13-83
+546            android:exported="false" />
+546-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:27:13-37
+547        <service
+547-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:28:9-31:39
+548            android:name="com.facebook.ads.internal.ipc.AdsMessengerService"
+548-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:29:13-77
+549            android:exported="false"
+549-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:30:13-37
+550            android:process=":adnw" />
+550-->[com.facebook.android:audience-network-sdk:5.1.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b628190fad3d4fef008d6b229388664f/jetified-audience-network-sdk-5.1.1/AndroidManifest.xml:31:13-36
+551        <service
+551-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ad982fed566855ce39da4a58a6e78c6/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:40:9-44:72
+552            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+552-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ad982fed566855ce39da4a58a6e78c6/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:41:13-80
+553            android:enabled="true"
+553-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ad982fed566855ce39da4a58a6e78c6/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:42:13-35
+554            android:exported="false"
+554-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ad982fed566855ce39da4a58a6e78c6/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:43:13-37
+555            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+555-->[com.google.android.gms:play-services-analytics:16.0.8] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ad982fed566855ce39da4a58a6e78c6/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:44:13-69
+556        <uses-library
+556-->[com.google.android.gms:play-services-maps:16.1.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/de74df0746cd6ef04a5a4bbc59836ae0/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+557            android:name="org.apache.http.legacy"
+557-->[com.google.android.gms:play-services-maps:16.1.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/de74df0746cd6ef04a5a4bbc59836ae0/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+558            android:required="false" />
+558-->[com.google.android.gms:play-services-maps:16.1.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/de74df0746cd6ef04a5a4bbc59836ae0/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+559
+560        <activity
+560-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+561            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+561-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+562            android:excludeFromRecents="true"
+562-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+563            android:exported="false"
+563-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+564            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+564-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+565        <!--
+566            Service handling Google Sign-In user revocation. For apps that do not integrate with
+567            Google Sign-In, this service will never be started.
+568        -->
+569        <service
+569-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+570            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+570-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+571            android:exported="true"
+571-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+572            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+572-->[com.google.android.gms:play-services-auth:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a33112741bce6b33fa8ec72b14b3f7ed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+573
+574        <meta-data
+574-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:49:9-51:51
+575            android:name="onesignal_app_id"
+575-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:50:13-44
+576            android:value="" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+576-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:51:13-48
+577        <meta-data
+577-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:53:9-55:70
+578            android:name="onesignal_google_project_number"
+578-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:54:13-59
+579            android:value="str:REMOTE" />
+579-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:55:13-67
+580
+581        <receiver
+581-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:57:9-67:20
+582            android:name="com.onesignal.GcmBroadcastReceiver"
+582-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:58:13-62
+583            android:permission="com.google.android.c2dm.permission.SEND" >
+583-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:59:13-73
+584
+585            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+586            <intent-filter android:priority="999" >
+586-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:62:13-66:29
+586-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:62:28-50
+587                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+587-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:9-72
+587-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:17-70
+588
+589                <category android:name="com.opentiq.fekra" />
+589-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:279:9-53
+589-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:279:19-51
+590            </intent-filter>
+591        </receiver>
+592        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+592-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:68:9-77
+592-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:68:19-74
+593
+594        <service android:name="com.onesignal.GcmIntentService" />
+594-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:70:9-66
+594-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:70:18-63
+595        <service
+595-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:71:9-73:72
+596            android:name="com.onesignal.GcmIntentJobService"
+596-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:72:13-61
+597            android:permission="android.permission.BIND_JOB_SERVICE" />
+597-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:73:13-69
+598        <service
+598-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:74:9-76:72
+599            android:name="com.onesignal.RestoreJobService"
+599-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:75:13-59
+600            android:permission="android.permission.BIND_JOB_SERVICE" />
+600-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:76:13-69
+601        <service
+601-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:77:9-79:72
+602            android:name="com.onesignal.RestoreKickoffJobService"
+602-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:78:13-66
+603            android:permission="android.permission.BIND_JOB_SERVICE" />
+603-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:79:13-69
+604        <service
+604-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:80:9-82:43
+605            android:name="com.onesignal.SyncService"
+605-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:81:13-53
+606            android:stopWithTask="true" />
+606-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:82:13-40
+607        <service
+607-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:83:9-85:72
+608            android:name="com.onesignal.SyncJobService"
+608-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:84:13-56
+609            android:permission="android.permission.BIND_JOB_SERVICE" />
+609-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:85:13-69
+610
+611        <activity
+611-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:87:9-89:75
+612            android:name="com.onesignal.PermissionsActivity"
+612-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:88:13-61
+613            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+613-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:89:13-72
+614
+615        <service android:name="com.onesignal.NotificationRestoreService" />
+615-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:91:9-76
+615-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:91:18-73
+616
+617        <receiver android:name="com.onesignal.BootUpReceiver" >
+617-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:93:9-98:20
+617-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:93:19-62
+618            <intent-filter>
+618-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:94:13-97:29
+619                <action android:name="android.intent.action.BOOT_COMPLETED" />
+619-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:87:17-79
+619-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:87:25-76
+620                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+620-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:90:17-82
+620-->[host.exp.exponent:expoview:36.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/AndroidManifest.xml:90:25-79
+621            </intent-filter>
+622        </receiver>
+623        <receiver android:name="com.onesignal.UpgradeReceiver" >
+623-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:99:9-103:20
+623-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:99:19-63
+624            <intent-filter>
+624-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:100:13-102:29
+625                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+625-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:101:17-84
+625-->[com.onesignal:OneSignal:3.13.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/b82e54f715ef045081d2d1ce5347f693/jetified-OneSignal-3.13.0/AndroidManifest.xml:101:25-81
+626            </intent-filter>
+627        </receiver>
+628
+629        <activity
+629-->[net.openid:appauth:0.7.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a90a40d1eaf78e02559b3efc62423f28/jetified-appauth-0.7.1/AndroidManifest.xml:27:9-31:75
+630            android:name="net.openid.appauth.AuthorizationManagementActivity"
+630-->[net.openid:appauth:0.7.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a90a40d1eaf78e02559b3efc62423f28/jetified-appauth-0.7.1/AndroidManifest.xml:28:13-78
+631            android:exported="false"
+631-->[net.openid:appauth:0.7.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a90a40d1eaf78e02559b3efc62423f28/jetified-appauth-0.7.1/AndroidManifest.xml:29:13-37
+632            android:launchMode="singleTask"
+632-->[net.openid:appauth:0.7.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a90a40d1eaf78e02559b3efc62423f28/jetified-appauth-0.7.1/AndroidManifest.xml:30:13-44
+633            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+633-->[net.openid:appauth:0.7.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/a90a40d1eaf78e02559b3efc62423f28/jetified-appauth-0.7.1/AndroidManifest.xml:31:13-72
+634
+635        <service
+635-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+636            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+636-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+637            android:exported="false" />
+637-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+638        <service
+638-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+639            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+639-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+640            android:exported="false" />
+640-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+641        <service
+641-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+642            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+642-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+643            android:exported="false" />
+643-->[io.nlopez.smartlocation:library:3.2.11] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/838a6a6963dd2f100f994791383cc49e/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+644        <!--
+645             FirebaseMessagingService performs security checks at runtime,
+646             but set to not exported to explicitly avoid allowing another app to call it.
+647        -->
+648        <service
+648-->[com.google.firebase:firebase-messaging:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/c055fcb8b27ac5ad5119e23dc6053dda/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:28:9-34:19
+649            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+649-->[com.google.firebase:firebase-messaging:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/c055fcb8b27ac5ad5119e23dc6053dda/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:29:13-82
+650            android:exported="false" >
+650-->[com.google.firebase:firebase-messaging:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/c055fcb8b27ac5ad5119e23dc6053dda/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:30:13-37
+651            <intent-filter android:priority="-500" >
+651-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:305:7-307:23
+652                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+652-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:306:9-69
+652-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:306:17-67
+653            </intent-filter>
+654        </service>
+655        <service
+655-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/aa4715ee68970dd17645fcd6fc4087f1/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+656            android:name="com.google.firebase.components.ComponentDiscoveryService"
+656-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/aa4715ee68970dd17645fcd6fc4087f1/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:28:13-84
+657            android:exported="false" >
+657-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/aa4715ee68970dd17645fcd6fc4087f1/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:29:13-37
+658            <meta-data
+658-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/aa4715ee68970dd17645fcd6fc4087f1/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+659                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+659-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/aa4715ee68970dd17645fcd6fc4087f1/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+660                android:value="com.google.firebase.components.ComponentRegistrar" />
+660-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/aa4715ee68970dd17645fcd6fc4087f1/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+661            <meta-data
+661-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+662                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+662-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+663                android:value="com.google.firebase.components.ComponentRegistrar" />
+663-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+664        </service>
+665
+666        <receiver
+666-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+667            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+667-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+668            android:exported="true"
+668-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+669            android:permission="com.google.android.c2dm.permission.SEND" >
+669-->[com.google.firebase:firebase-iid:18.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/345de99cc760bf107b9d0eb548c93eae/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+670            <intent-filter>
+670-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:286:7-288:23
+671                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+671-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:9-72
+671-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:276:17-70
+672            </intent-filter>
+673        </receiver>
+674
+675        <activity
+675-->[com.google.android.gms:play-services-base:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/076a695625f3ac0055f157861d9b13f7/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+676            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+676-->[com.google.android.gms:play-services-base:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/076a695625f3ac0055f157861d9b13f7/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+677            android:exported="false"
+677-->[com.google.android.gms:play-services-base:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/076a695625f3ac0055f157861d9b13f7/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+678            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+678-->[com.google.android.gms:play-services-base:16.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/076a695625f3ac0055f157861d9b13f7/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+679
+680        <provider
+680-->[com.google.firebase:firebase-common:17.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/db05cfc0892999dbe51ad68861076f46/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+681            android:name="com.google.firebase.provider.FirebaseInitProvider"
+681-->[com.google.firebase:firebase-common:17.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/db05cfc0892999dbe51ad68861076f46/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+682            android:authorities="com.opentiq.fekra.firebaseinitprovider"
+682-->[com.google.firebase:firebase-common:17.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/db05cfc0892999dbe51ad68861076f46/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+683            android:exported="false"
+683-->[com.google.firebase:firebase-common:17.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/db05cfc0892999dbe51ad68861076f46/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+684            android:initOrder="100" />
+684-->[com.google.firebase:firebase-common:17.0.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/db05cfc0892999dbe51ad68861076f46/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+685
+686        <receiver
+686-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+687            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+687-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+688            android:enabled="true"
+688-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+689            android:exported="false" >
+689-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+690        </receiver>
+691        <receiver
+691-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+692            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+692-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+693            android:enabled="true"
+693-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+694            android:exported="true"
+694-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+695            android:permission="android.permission.INSTALL_PACKAGES" >
+695-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+696            <intent-filter>
+696-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:246:7-248:23
+697                <action android:name="com.android.vending.INSTALL_REFERRER" />
+697-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:247:9-71
+697-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:247:17-68
+698            </intent-filter>
+699        </receiver>
+700
+701        <service
+701-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+702            android:name="com.google.android.gms.measurement.AppMeasurementService"
+702-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+703            android:enabled="true"
+703-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+704            android:exported="false" />
+704-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+705        <service
+705-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+706            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+706-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+707            android:enabled="true"
+707-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+708            android:exported="false"
+708-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+709            android:permission="android.permission.BIND_JOB_SERVICE" />
+709-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1eb7e604de2b3c4599bd86a92b39d524/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+710
+711        <meta-data
+711-->[com.google.android.gms:play-services-basement:16.2.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/5277e0bb5d2123fb6ed3b34451d4c3a5/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+712            android:name="com.google.android.gms.version"
+712-->[com.google.android.gms:play-services-basement:16.2.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/5277e0bb5d2123fb6ed3b34451d4c3a5/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+713            android:value="@integer/google_play_services_version" />
+713-->[com.google.android.gms:play-services-basement:16.2.0] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/5277e0bb5d2123fb6ed3b34451d4c3a5/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+714        <!--
+715         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+716         with the application context. This config is merged in with the host app's manifest,
+717         but there can only be one provider with the same authority activated at any given
+718         point; so if the end user has two or more different apps that use Facebook SDK, only the
+719         first one will be able to use the provider. To work around this problem, we use the
+720         following placeholder in the authority to identify each host application as if it was
+721         a completely different provider.
+722        -->
+723        <provider
+723-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:39:9-42:40
+724            android:name="com.facebook.internal.FacebookInitProvider"
+724-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:40:13-70
+725            android:authorities="com.opentiq.fekra.FacebookInitProvider"
+725-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:41:13-72
+726            android:exported="false" />
+726-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:42:13-37
+727
+728        <receiver
+728-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:44:9-50:20
+729            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+729-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:45:13-86
+730            android:exported="false" >
+730-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:46:13-37
+731            <intent-filter>
+731-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:47:13-49:29
+732                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+732-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:48:17-95
+732-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:48:25-92
+733            </intent-filter>
+734        </receiver>
+735        <receiver
+735-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:51:9-58:20
+736            android:name="com.facebook.CampaignTrackingReceiver"
+736-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:52:13-65
+737            android:exported="true"
+737-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:53:13-36
+738            android:permission="android.permission.INSTALL_PACKAGES" >
+738-->[com.facebook.android:facebook-core:5.0.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/d5fbdef016aa431410002964a5e9ccb6/jetified-facebook-core-5.0.1/AndroidManifest.xml:54:13-69
+739            <intent-filter>
+739-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:246:7-248:23
+740                <action android:name="com.android.vending.INSTALL_REFERRER" />
+740-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:247:9-71
+740-->/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/AndroidManifest.xml:247:17-68
+741            </intent-filter>
+742        </receiver>
+743
+744        <provider
+744-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/cf35ece8ee81b581bb212b81cc2b9fd9/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+745            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+745-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/cf35ece8ee81b581bb212b81cc2b9fd9/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+746            android:authorities="com.opentiq.fekra.crashlyticsinitprovider"
+746-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/cf35ece8ee81b581bb212b81cc2b9fd9/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+747            android:exported="false"
+747-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/cf35ece8ee81b581bb212b81cc2b9fd9/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+748            android:initOrder="90" />
+748-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/cf35ece8ee81b581bb212b81cc2b9fd9/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+749    </application>
+750
+751</manifest>

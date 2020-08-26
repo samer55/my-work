@@ -1,0 +1,7 @@
+#Tue Aug 11 01:39:37 EEST 2020
+base.0=/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/transforms/r8/release/0/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/transforms/r8/release/0/classes2.dex

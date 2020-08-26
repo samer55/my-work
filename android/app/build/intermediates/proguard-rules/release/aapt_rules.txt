@@ -1,0 +1,280 @@
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:200
+-keep class abi33_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:282
+-keep class abi33_0_0.expo.modules.payments.stripe.RedirectUriReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:197
+-keep class abi34_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:266
+-keep class abi34_0_0.expo.modules.payments.stripe.RedirectUriReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:194
+-keep class abi35_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:250
+-keep class abi35_0_0.expo.modules.payments.stripe.RedirectUriReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:191
+-keep class abi36_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:234
+-keep class abi36_0_0.expo.modules.payments.stripe.RedirectUriReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:127
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:474
+-keep class androidx.core.content.FileProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:744
+-keep class com.crashlytics.android.CrashlyticsInitProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:735
+-keep class com.facebook.CampaignTrackingReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:728
+-keep class com.facebook.CurrentAccessTokenExpirationBroadcastReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:533
+-keep class com.facebook.CustomTabActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:532
+-keep class com.facebook.CustomTabMainActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:309
+-keep class com.facebook.FacebookActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:534
+-keep class com.facebook.ads.AudienceNetworkActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:314
+-keep class com.facebook.ads.InterstitialAdActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:547
+-keep class com.facebook.ads.internal.ipc.AdsMessengerService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:544
+-keep class com.facebook.ads.internal.ipc.AdsProcessPriorityService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:538
+-keep class com.facebook.ads.internal.ipc.RemoteANActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:723
+-keep class com.facebook.internal.FacebookInitProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:187
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:551
+-keep class com.google.android.gms.analytics.AnalyticsJobService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:342
+-keep class com.google.android.gms.analytics.AnalyticsReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:351
+-keep class com.google.android.gms.analytics.AnalyticsService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:569
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:560
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:675
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:357
+-keep class com.google.android.gms.gcm.GcmReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:691
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:705
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:686
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:701
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:655
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:666
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:648
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:680
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:617
+-keep class com.onesignal.BootUpReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:581
+-keep class com.onesignal.GcmBroadcastReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:595
+-keep class com.onesignal.GcmIntentJobService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:594
+-keep class com.onesignal.GcmIntentService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:592
+-keep class com.onesignal.NotificationOpenedReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:615
+-keep class com.onesignal.NotificationRestoreService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:611
+-keep class com.onesignal.PermissionsActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:598
+-keep class com.onesignal.RestoreJobService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:601
+-keep class com.onesignal.RestoreKickoffJobService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:607
+-keep class com.onesignal.SyncJobService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:604
+-keep class com.onesignal.SyncService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:623
+-keep class com.onesignal.UpgradeReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:408
+-keep class com.theartofdev.edmodo.cropper.CropImageActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:493
+-keep class expo.modules.appauth.AppAuthBrowserActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:499
+-keep class expo.modules.filesystem.FileSystemFileProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:508
+-keep class expo.modules.imagepicker.ImagePickerFileProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:518
+-keep class expo.modules.location.services.LocationTaskService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:218
+-keep class expo.modules.payments.stripe.RedirectUriReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:522
+-keep class expo.modules.sharing.SharingFileProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:320
+-keep class host.exp.exponent.ExponentIntentService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:136
+-keep class host.exp.exponent.LauncherActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:148
+-keep class host.exp.exponent.MainActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:127
+-keep class host.exp.exponent.MainApplication { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:299
+-keep class host.exp.exponent.experience.ErrorActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:142
+-keep class host.exp.exponent.experience.ExperienceActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:169
+-keep class host.exp.exponent.experience.HomeActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:304
+-keep class host.exp.exponent.experience.InfoActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:176
+-keep class host.exp.exponent.experience.TvActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:389
+-keep class host.exp.exponent.fcm.ExpoFcmMessagingService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:402
+-keep class host.exp.exponent.fcm.FcmRegistrationIntentService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:369
+-keep class host.exp.exponent.gcm.ExponentGcmListenerService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:376
+-keep class host.exp.exponent.gcm.ExponentInstanceIDListenerService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:383
+-keep class host.exp.exponent.gcm.GcmRegistrationIntentService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:460
+-keep class host.exp.exponent.notifications.ScheduledNotificationReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:463
+-keep class host.exp.exponent.notifications.receivers.SchedulingTriggerReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:325
+-keep class host.exp.exponent.referrer.InstallReferrerReceiver { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:635
+-keep class io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:641
+-keep class io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:638
+-keep class io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:629
+-keep class net.openid.appauth.AuthorizationManagementActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:204
+-keep class net.openid.appauth.RedirectUriReceiverActivity { <init>(); }
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:483
+-keep class versioned.host.exp.exponent.modules.api.components.webview.RNCWebViewFileProvider { <init>(); }
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:57
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/res/layout/com_facebook_smart_device_dialog_fragment.xml:47
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/res/layout/com_facebook_device_auth_dialog_fragment.xml:45
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/res/layout/oauth_webview_activity.xml:5
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/6fcbc246a29c77a89d7e23de7fa64893/expoview-36.0.0/res/layout/info_activity.xml:14
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/8ba03d5d4c56ada5718d9f0d3957895a/browser-1.0.0/res/layout/browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/res/layout/com_facebook_smart_device_dialog_fragment.xml:22
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/1ddfead01d0614e48d79999c144739cd/jetified-facebook-common-5.0.1/res/layout/com_facebook_device_auth_dialog_fragment.xml:22
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_bottom_sheet_dialog.xml:26
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/08d5dcb2ad36c8c391956f8e4b207bda/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/res/layout/error_activity_new.xml:2
+-keep class androidx.viewpager.widget.ViewPager { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_text_input_password_icon.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/mtrl_layout_snackbar.xml:18
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/mtrl_layout_snackbar_include.xml:18
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/71f878751c312e5a1ce316523e39be12/material-1.0.0/res/layout/design_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/753b37b66d982646ffe8e70048d98a9b/jetified-android-maps-utils-0.5/res/layout/amu_text_bubble.xml:7
+-keep class com.google.maps.android.ui.RotationLayout { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/4cb5cbf7bbadaa7e877700b5af676f92/jetified-android-image-cropper-2.7.0/res/layout/crop_image_activity.xml:2
+-keep class com.theartofdev.edmodo.cropper.CropImageView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/.gradle/caches/transforms-2/files-2.1/4cb5cbf7bbadaa7e877700b5af676f92/jetified-android-image-cropper-2.7.0/res/layout/crop_image_view.xml:13
+-keep class com.theartofdev.edmodo.cropper.CropOverlayView { <init>(...); }
+
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/res/layout/error_fragment.xml:57
+# Referenced at /Users/anasalsukhni/Desktop/desktop files/Opentiq projects/Openshop projects/بابي copy/android/app/src/main/res/layout/error_console_fragment.xml:25
+-keep class host.exp.exponent.views.ExponentImageButton { <init>(...); }
+
